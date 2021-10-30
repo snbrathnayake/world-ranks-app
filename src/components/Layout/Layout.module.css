@@ -1,0 +1,46 @@
+.container {
+  box-sizing: border-box;
+  padding: 24px;
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.header img {
+  width: 75px;
+  cursor: pointer;
+}
+
+.themeSwitcher {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  color: var(--text-color-secondary);
+  margin-left: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.75rem;
+}
